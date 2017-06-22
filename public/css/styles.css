@@ -645,6 +645,12 @@ hr.custom-hr {
   .contact .social-icons a .fa:before {
     font-size: 18px;
   }
+  .fullscreen {
+    height: auto;
+  }
+  .objectives-columns .fa {
+    padding: .8em;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
