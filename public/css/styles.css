@@ -7,6 +7,9 @@
 */
 /* Default */
 /* ======= Base ======= */
+html, body {
+  height: 100%;
+}
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #444444;
@@ -557,7 +560,7 @@ pre code {
   color: #fb866a;
 }
 .fullscreen {
-  height: 100vh;
+  height: 100%;
 }
 #how .content p {
   text-align: left;
