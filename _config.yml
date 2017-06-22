@@ -1,0 +1,56 @@
+# Setup
+title:               LincSoft
+email:               contacto@lincsoft.com.ar
+tagline:             Una empresa de Software de Lincoln
+description:         >
+                     LincSoft es una empresa de Software de Lincoln.
+url:                 "http://lincsoft.com.ar" # insert your site's URL
+baseurl:             ""
+
+# About/contact
+author: # you can edit these to be your personal details
+  name:              Matías Brown
+  url:
+  email:             matibrown@gmail.com
+
+# Google services
+google_verification:
+# Use either direct GA implementation or set up GTM account
+# - using both will skew your data (leave blank to not use at all)
+google_analytics:
+google_tag_manager:
+# Bing services
+bing_verification:
+
+# Social
+github_username: lincsoft
+twitter_username: lincsoft
+instagram_username: lincsoft/
+facebook: lincsoft/
+linkedin_username: lincsoft
+dribbble_username: lincsoft
+
+# Custom vars
+version:             1.0.1
+github:
+  repo:              https://github.com/lincsoft/lincsoft.github.io
+
+# Gems - Dependencies for this theme
+plugins:
+  # None currently
+
+# Build settings
+markdown:     kramdown
+permalink:    pretty
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

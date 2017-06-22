@@ -1,0 +1,60 @@
+    <!-- ******CONTACT****** -->
+    <section id="contact" class="contact section has-pattern">
+        <div class="container">
+            <div>
+                <h2 class="title  text-center">¡Contactanos!</h2>
+                <hr class="custom-hr">
+                <div class="info text-center">
+                    <ul class="social-icons list-inline">
+                        <li><a href="https://www.facebook.com/{{ site.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company-beta/11172546"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="last"><a href="mailto: {{ site.email }}"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div><!--//info-->
+                <div class="clearfix"></div>
+                <div id="contact-form-global" class="contact-inner">
+                    <form id="contact-form" class="form-horizontal">
+                      <input type="hidden" name="_subject" value="Contacto a través de www.lincsoft.com.ar"/>
+                      <input type="text" name="_gotcha" style="display:none" />
+                      <fieldset>
+                        <div class="row">
+                          <div class="col-md-12 form-group">
+                            <div class="col-md-6 col-xs-12">
+                              <input class="form-control" type="text" name="name" placeholder="Nombre *" required="">
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                              <input class="form-control" type="text" name="surname" placeholder="Apellido *" required="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12 form-group">
+                            <div class="col-md-6 col-xs-12">
+                              <input class="form-control" type="email" name="_replyto" placeholder="Correo electrónico *" required="">
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                              <input class="form-control" type="text" name="phone" placeholder="Teléfono">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12 form-group">
+                            <div class="col-md-12 col-xs-12">
+                              <textarea class="form-control" rows="7" id="comment" type="text" name="comment" placeholder="Dejanos tu mensaje *" required=""></textarea>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12 form-group">
+                            <div class="col-md-12 col-xs-12 text-right">
+                              <button type="submit" class="btn btn-lg btn-default submit-button">Enviar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </fieldset>
+                    </form>
+                  </div>
+                
+            </div><!--//contact-inner-->
+        </div><!--//container-->
+    </section><!--//contact-->
